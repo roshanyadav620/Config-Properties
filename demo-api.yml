@@ -1,5 +1,4 @@
-server: 
-  port: 8082
+
 
 spring:
   boot:
@@ -12,4 +11,6 @@ management:
     web:
       exposure:
         include: "*"
+
+message: "This is a demo from config server"
   
